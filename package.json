@@ -14,10 +14,9 @@
     "react-scripts": "^3.4.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
