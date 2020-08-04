@@ -1,25 +1,19 @@
 {
   "name": "clickygame",
   "version": "0.1.0",
-  "engines": {
-    "node": "12.16.2"
-  },
   "private": true,
   "homepage": "https://bemmons1993.github.io/clickygame",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "merge": "^1.2.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "^3.4.1",
-    "serve": "^11.3.2"
+    "react-scripts": "2.0.5"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
